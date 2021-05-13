@@ -21,4 +21,4 @@ Demo:
 
 ## UI
 ### Mobile, IPad and Desktop
-![](./public/avenger-chat.gif)
+![](./public/react-blog.gif)
