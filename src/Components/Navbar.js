@@ -9,6 +9,8 @@ import {
   setSignedIn,
   setUserData,
 } from "../features/userSlice";
+import UserPage from './User'
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import "../styling/navbar.css";
 
@@ -31,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <h1 className="navbar__header">BlogMania 💬</h1>
+      <h1 className="navbar__header">Blogs </h1>
       {isSignedIn && (
         <div className="blog__search">
           <input
@@ -53,7 +55,7 @@ const Navbar = () => {
             src={userData?.imageUrl}
             alt={userData?.name}
           />
-          <h1 className="signedIn">{userData?.givenName}</h1>
+          <h1 className="signedIn" >{userData?.givenName}</h1>
           <GoogleLogout
             clientId="255368387867-89v0vs3vh1rf2c8bjo5vuoh1ihrdk9so.apps.googleusercontent.com"
             render={(renderProps) => (
@@ -62,14 +64,14 @@ const Navbar = () => {
                 disabled={renderProps.disabled}
                 className="logout__button"
               >
-                Logout 😦
+                Logout 
               </button>
             )}
             onLogoutSuccess={logout}
           />
         </div>
       ) : (
-        <h1 className="notSignedIn">User not available 😞</h1>
+        <h1 className="notSignedIn"> </h1>
       )}
     </div>
   );

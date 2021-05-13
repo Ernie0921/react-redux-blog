@@ -6,6 +6,7 @@
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    background-color: rgb(232, 236, 243);
    
   }
   
@@ -19,7 +20,7 @@
     margin: 0;
   }
   
-  .login__message > h1 {
+  .login__message > h3 {
     font-size: 100px;
     width: 80%;
     line-height: 1em;
@@ -27,7 +28,7 @@
     margin-top: 0;
     font-weight: 900;
     letter-spacing: -4px;
-    color: rgb(17, 17, 17);
+    color: rgb(5, 5, 5);
     text-decoration: underline;
   }
   
@@ -44,10 +45,11 @@
     margin: 15px auto 0px auto;
     padding: 15px 0;
     border: none;
-    background: rgb(17, 17, 17);
+    background: rgb(46, 3, 238);
     font-family: "Inter";
     color: white;
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 10px;
   }
