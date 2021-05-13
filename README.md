@@ -1,4 +1,4 @@
-# React-Readux-Blog
+# React-Redux-Blog
 
 Log in using google authentication and search for blogs based on your search. 
 
