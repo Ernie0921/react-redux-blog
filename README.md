@@ -10,6 +10,16 @@ Demo:
 - Reduxjs/toolkit
 - React-redux
 - React-google-login
+-   "axios": "^0.21.0",
+-  "firebase": "^7.17.1",
+-    "react": "^16.13.1",
+-    "react-dom": "^16.13.1",
+-    "react-google-login": "^5.1.24",
+-    "react-redux": "^7.2.2",
+-    "react-router-dom": "^5.2.0",
+-    "react-scripts": "3.4.1",
+-    "styled-components": "^5.1.1",
+-    "styled-loaders-react": "^1.1.0"
 
 ## How to develop it
 
