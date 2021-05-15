@@ -9,8 +9,8 @@ import {
   setSignedIn,
   setUserData,
 } from "../features/userSlice";
-import UserPage from './User'
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+
+
 
 import "../styling/navbar.css";
 
