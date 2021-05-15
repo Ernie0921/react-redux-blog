@@ -3,7 +3,7 @@
 Log in using google authentication and search for blogs based on your search. 
 
 Demo: 
-[link]()
+
 
 # Technologies
 - React
